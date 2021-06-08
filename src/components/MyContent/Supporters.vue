@@ -120,6 +120,12 @@ export default {
           type: 'piraten',
           url: 'https://piratenpartei.at/',
         },
+        {
+          img: 'static/logos/visibility.png',
+          name: 'visiBi*lity Austria',
+          type: 'visibility',
+          url: 'https://www.visibility-austria.at/',
+        },
       ],
       partners: [
         {

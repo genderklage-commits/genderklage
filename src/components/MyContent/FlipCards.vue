@@ -76,18 +76,28 @@ export default {
   overflow: hidden;
   margin: 0 auto;
   padding-bottom: 2rem;
+  margin-left: -15px;
+  padding-left: 15px;
+  margin-right: -15px;
+  padding-right: 15px;
 }
 
 .item .col-sup {
   margin-top: 2rem;
 }
 
+.item .card,
+.card-flip,
+.card-flip .front,
+.card-flip .back {
+  width: 12rem;
+  height: 8rem;
+}
+
 .item .card {
   padding: 0.2rem;
   margin: 0 auto;
   text-align: left;
-  width: 13rem;
-  height: 9rem;
   border: 1px solid white;
   display: grid;
   align-content: center;
@@ -96,7 +106,7 @@ export default {
 
 .item .card .img-statement {
   max-width: 11rem;
-  max-height: 8rem;
+  max-height: 7rem;
   width: auto;
   height: auto;
 }
@@ -177,6 +187,12 @@ background: linear-gradient(180deg, #FE0000 0%,
 #C22EDC 100%);
 }
 
+.item .visibility:after {
+    background: radial-gradient(circle,
+    rgba(62,37,131,1) 30%,
+    rgba(230,0,126,1) 100%);
+}
+
 /* http://barchok.com/flags.html */
 .item .lgbt:after  {
 background: linear-gradient(180deg, #FE0000 16.66%,
@@ -237,13 +253,6 @@ background: linear-gradient(180deg, #FE0000 16.66%,
 .card-flip:hover .flip,
 .card-flip.hover .flip {
   transform: rotateY(180deg);
-}
-
-.card-flip,
-.card-flip .front,
-.card-flip .back {
-  width: 13rem;
-  height: 9rem;
 }
 
 .card-flip .flip {
