@@ -79,7 +79,7 @@ export default {
         },
         {
           // eslint-disable-next-line no-multi-str
-          sec: 0, title: 'Ist Transsexualität eine Krankheit?', text: '\
+          sec: 0, title: 'Was bedeutet die Diagnosse Transsexualität?', text: '\
           <p>Die Weltgesundheitsorganisation (WHO) hat am 18.06.2018 ihren grundlegend überarbeiteten\
           Krankheitenkatalog ICD-11 vorgestellt. Eine wichtige Neuerung: Trans* Personen werden nicht\
           länger als Menschen mit „Störungen der Geschlechtsidentität“ im Abschnitt „Mentale und\
