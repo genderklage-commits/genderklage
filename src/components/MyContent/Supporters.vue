@@ -126,6 +126,18 @@ export default {
           type: 'visibility',
           url: 'https://www.visibility-austria.at/',
         },
+        {
+          img: 'static/logos/hosi_salzburg.png',
+          name: 'HOSI Salzburg',
+          type: 'hosi_salzburg',
+          url: 'https://www.hosi.or.at/',
+        },
+        {
+          img: 'static/logos/rlp.png',
+          name: 'RosaLila PantherInnen',
+          type: 'rlp',
+          url: 'https://www.homo.at/',
+        },
       ],
       partners: [
         {

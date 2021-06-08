@@ -158,6 +158,14 @@ export default {
   background: #4c2582;
 }
 
+.item .hosi_salzburg:after {
+  background: #d40079;
+}
+
+.item .rlp:after {
+  background: #71297b;
+}
+
 .item .psychotherapie_salzburg:after {
     background: linear-gradient(180deg, #186469 25%,
   #3b8e9d 25%, 50%, #74a4b2 50%, 75%, #bec6ca 75%);
