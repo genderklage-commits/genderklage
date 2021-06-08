@@ -1,7 +1,7 @@
 <template>
   <div class="impressum">
     <h3 data-track-content data-content-name="Impressum" data-content-piece="Impressum">
-      Medieninhaber:in, Herausgeber:in, Hersteller:in und Redaktion:</h3>
+      Medieninhaber*in, Herausgeber*in, Hersteller*in und Redaktion:</h3>
     <p><a target="_blank" href="https://venib.at/">
        Venib - Verein Nicht Binär</a><br />
        Waldgasse 16/8<br />
