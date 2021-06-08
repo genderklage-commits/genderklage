@@ -2,7 +2,7 @@
   <div>
     <h2 id="Supporter"
     data-track-content data-content-name="Content" data-content-piece="Supporter">
-      Unterstützer:innen</h2>
+      Unterstützer*innen</h2>
     <p>Vielen Dank für die Unterstützung aus der Community &amp; alle die sich hinter das
       Projekt und das Anliegen stellen! Die Logos sind verlinkt,
       Organisationen sind in zufälliger Reihenfolge

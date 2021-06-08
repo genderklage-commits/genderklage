@@ -12,7 +12,7 @@
     Dazu haben wir uns bereits mit mehr als 50 weiteren Organisationen in einem
     <a target="_blank" href="https://www.transx.at/Dokumente/Offener%20Brief%202021.05.pdf">offenen Brief</a>
     an die Bundesregierung gewandt und untestützen die Genderklage.
-    Die Genderklage ist eine Innitiative der Kläger:in.
+    Die Genderklage ist eine Innitiative der Kläger*in.
     </p>
     <p>
     Grundsätzlich ist die aktuelle Situation in Österreich, dass bei der Geburt
@@ -65,7 +65,7 @@
     den Weg auch für andere eröffnen würde.
     Aufbauend auf die Vorarbeit, die hier schon geleistet wurde,
     sind wir optimistisch und rechnen jedenfalls grundsätzlich mit einem Erfolg.
-    Danach klagen wir in einem zweiten Schritt gegen das 'X' im Ausweis.</p>
+    Danach möchte Kläger*in in einem zweiten Schritt gegen das 'X' im Ausweis vorgehen.</p>
 
     <h2 id="Claim" data-track-content data-content-name="Content" data-content-piece="Antrag">
     Überlegungen zum Antrag</h2>
@@ -101,7 +101,7 @@
     nach seiner eigenen Definition zu dokumentieren, ist eine Alternative die
     Zugänglichkeit dieser Information einzuschränken, sodass sie zwar erfasst, nicht aber
     in Dokumente gedruckt wird (so wie das beim Religionsbekenntnis bereits der Fall ist).
-    Dazu arbeiten wir an einer Petition mit dem Ziel der Streichung des
+    Dazu arbeiten die Kläger*in an einer Petition mit dem Ziel der Streichung des
     Geschlechts aus dem personenstandsrechtlichen Personenkern.
     </p>
     <p>

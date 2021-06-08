@@ -131,7 +131,7 @@
             <h3>tbd - Klage gegen das 'X' im Ausweis</h3>
             <p>Sobald der Geschlechtseintrag im Personenstand gestrichen wurde,
             kann ein neuer Ausweis beantrage werden. Dieser würde nach der aktuellen
-            Regelung mit einem 'X' ausgestellt, wogegen wir klagen wollen.
+            Regelung mit einem 'X' ausgestellt, wogegen die Kläger*in vorgehen möchte.
             </p>
           </div>
         </div>

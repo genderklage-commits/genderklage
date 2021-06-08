@@ -232,7 +232,7 @@ export default {
       faqklage: [
         {
           // eslint-disable-next-line no-multi-str
-          title: 'Wer vertritt die Kläger:in?', text: '\
+          title: 'Wer vertritt die Kläger*in?', text: '\
           <p>Dr. Helmut Graupner</p>\
           <a target="_blank" href="https://www.graupner.at/">https://www.graupner.at/</a>\
           ',
@@ -382,7 +382,7 @@ export default {
         {
           // eslint-disable-next-line no-multi-str
           title: 'Wie ist die Abgrenzung zwischen Venib und Genderklage?', text: '\
-          <p>Genderklage ist eine Inniativate der Kläger:in, daher ist die Kläger:in redaktionell verantwortlich\
+          <p>Genderklage ist eine Inniativate der Kläger*in, daher ist die Kläger*in redaktionell verantwortlich\
           für Genderkalge.at, Venib stellt die Infrastrkutur und kümmert sich um die Spendenabwicklung.\
           Aussendungen von Venib werden jedenfalls über die offiziellen Kanäle von Venib kommuniziert.</p>\
           ',

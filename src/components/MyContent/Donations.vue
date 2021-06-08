@@ -15,7 +15,7 @@
       0 von 20.000 Euro
       </div>
     </div><div class="float-right" style="margin-top: -2rem;">
-      <small>(Stand: 05.04.2021)</small></div>
+      <small>(Stand: 07.06.2021)</small></div>
     <p>Wir freuen uns über jede Spende! Falls du auf einen Wink vom Schicksal gewartet hast,
     hier ist er ;)
     </p>
