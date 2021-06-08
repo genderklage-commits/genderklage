@@ -114,6 +114,12 @@ export default {
           type: 'lgbtq_htu',
           url: 'https://htu.at/index.php/LGBT%2A',
         },
+        {
+          img: 'static/logos/piraten.png',
+          name: 'Piratenpartei Österreichs',
+          type: 'piraten',
+          url: 'https://piratenpartei.at/',
+        },
       ],
       partners: [
         {
