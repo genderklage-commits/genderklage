@@ -138,6 +138,12 @@ export default {
           type: 'rlp',
           url: 'https://www.homo.at/',
         },
+        {
+          img: 'static/logos/gendergalaxie.png',
+          name: 'Gender Galaxie',
+          type: 'gendergalaxie',
+          url: 'https://www.facebook.com/GenderGalaxie',
+        },
       ],
       partners: [
         {

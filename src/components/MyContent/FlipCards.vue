@@ -201,6 +201,16 @@ background: linear-gradient(180deg, #FE0000 0%,
     rgba(230,0,126,1) 100%);
 }
 
+.item .gendergalaxie:after {
+    background: radial-gradient(circle,
+    rgba(244,205,148,1) 10%,
+    rgba(95,65,115,1) 70%);
+}
+
+.item .front .card.gendergalaxie {
+  background-color: black;
+}
+
 /* http://barchok.com/flags.html */
 .item .lgbt:after  {
 background: linear-gradient(180deg, #FE0000 16.66%,
