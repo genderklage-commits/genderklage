@@ -27,7 +27,7 @@
     </div>
 
     <div class="partners container">
-      <h3>Kooperationsparnter*innen</h3>
+      <h3>Kooperationspartner*innen</h3>
       <FlipCards ref="partner" :items='partners' />
     </div>
 
