@@ -150,6 +150,12 @@ export default {
           type: 'kpoe',
           url: 'https://www.kpoe.at/',
         },
+        {
+          img: 'static/logos/links.png',
+          name: 'LINKS',
+          type: 'links',
+          url: 'https://links-wien.at/',
+        },
       ],
       partners: [
         {
