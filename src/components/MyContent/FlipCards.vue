@@ -174,6 +174,10 @@ export default {
   background: #5c0aa3;
 }
 
+.item .selbstbewusst:after {
+  background: #ea7911;
+}
+
 .item .psychotherapie_salzburg:after {
     background: linear-gradient(180deg, #186469 25%,
   #3b8e9d 25%, 50%, #74a4b2 50%, 75%, #bec6ca 75%);

@@ -156,6 +156,12 @@ export default {
           type: 'links',
           url: 'https://links-wien.at/',
         },
+        {
+          img: 'static/logos/selbstbewusst.png',
+          name: 'Fachstelle Selbstbewusst - Sexuelle Bildung & Prävention von sexuellem Missbrauch',
+          type: 'selbstbewusst',
+          url: 'https://www.selbstbewusst.at/',
+        },
       ],
       partners: [
         {
