@@ -144,6 +144,12 @@ export default {
           type: 'gendergalaxie',
           url: 'https://www.facebook.com/GenderGalaxie',
         },
+        {
+          img: 'static/logos/kpoe.png',
+          name: 'Kommunistische Partei Österreichs',
+          type: 'kpoe',
+          url: 'https://www.kpoe.at/',
+        },
       ],
       partners: [
         {
