@@ -12,10 +12,10 @@
     </p>
     <div class="donateprogressbar progress">
       <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 5%" >
-      0 von 20.000 Euro
+      1.145 von 20.000 Euro
       </div>
     </div><div class="float-right" style="margin-top: -2rem;">
-      <small>(Stand: 07.06.2021)</small></div>
+      <small>(Stand: 10.06.2021)</small></div>
     <p>Wir freuen uns über jede Spende! Falls du auf einen Wink vom Schicksal gewartet hast,
     hier ist er ;)
     </p>
@@ -79,6 +79,8 @@
       href="https://blog.genderklage.at/kostenuebersicht/">
       Kostenübersicht</a>.
     </p>
+    <p>Spenden ohne Verwendungszweck werden für die allgemeine
+      Vereinstätigkeit bei Venib benutzt.</p>
   </div>
 </template>
 
