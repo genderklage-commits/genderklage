@@ -162,6 +162,12 @@ export default {
           type: 'selbstbewusst',
           url: 'https://www.selbstbewusst.at/',
         },
+        {
+          img: 'static/logos/soho.png',
+          name: 'SoHo Österreich – die sozialdemokratische LGBTIQ-Organisation',
+          type: 'soho',
+          url: 'https://www.soho.or.at/',
+        },
       ],
       partners: [
         {

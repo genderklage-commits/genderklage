@@ -178,6 +178,10 @@ export default {
   background: #ea7911;
 }
 
+.item .soho:after {
+  background: #e30e1b;
+}
+
 .item .psychotherapie_salzburg:after {
     background: linear-gradient(180deg, #186469 25%,
   #3b8e9d 25%, 50%, #74a4b2 50%, 75%, #bec6ca 75%);
