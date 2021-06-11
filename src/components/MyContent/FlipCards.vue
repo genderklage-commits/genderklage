@@ -8,12 +8,10 @@
 
             <div class="front">
               <!-- front content -->
-                <a :href="item.url" target="_blank" :alt="item.name">
                   <span class="card" v-bind:class="item.type">
                     <img :src="item.img" class="card-img-top img-statement"
                     :alt="item.name" />
                   </span>
-                </a>
             </div>
 
             <div class="back">
@@ -124,10 +122,10 @@ export default {
 .item .card:after {
   content: '';
   position: absolute;
-  left: -3px;
-  top: -3px;
-  right: -3px;
-  bottom: -3px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   z-index: -1;
   opacity: 0.7;
   border-radius: 6px;
@@ -223,10 +221,6 @@ background: linear-gradient(180deg, #FE0000 0%,
     rgba(95,65,115,1) 70%);
 }
 
-.item .front .card.gendergalaxie {
-  background-color: black;
-}
-
 /* http://barchok.com/flags.html */
 .item .lgbt:after  {
 background: linear-gradient(180deg, #FE0000 16.66%,
@@ -285,7 +279,7 @@ background: linear-gradient(180deg, #FE0000 16.66%,
 }
 
 .card-flip:hover .flip,
-.card-flip.hover .flip {
+.card-flip.active .flip {
   transform: rotateY(180deg);
 }
 
