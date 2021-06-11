@@ -16,7 +16,7 @@
 
             <div class="back">
               <!-- back content -->
-              <a :href="item.url" target="_blank" :alt="item.name">
+              <a :href="item.url" target="_blank" :alt="item.name" rel="noopener">
                 <span class="card" v-bind:class="item.type">
                   <h3 class="card-title text-center">{{item.name}}</h3>
                   <p v-if="item.description" class="text-center"

@@ -1,26 +1,35 @@
 <template>
   <div>
     <main role="main" class="container">
-      <Intro />
-      <Roadmap />
-      <Donations />
-      <Supporters />
-      <Participate />
+      <Intro v-if="show"/>
+      <Roadmap v-if="show"/>
+      <Donations v-if="show"/>
+      <Supporters v-if="show"/>
+      <Participate v-if="show"/>
       <FAQ />
     </main>
   </div>
 </template>
 
 <script>
-import Intro from './MyContent/Intro.vue';
-import Roadmap from './MyContent/Roadmap.vue';
-import Donations from './MyContent/Donations.vue';
-import Supporters from './MyContent/Supporters.vue';
-import Participate from './MyContent/Participate.vue';
-import FAQ from './MyContent/FAQ.vue';
+
+const Intro = () => import('./MyContent/Intro.vue');
+const Roadmap = () => import('./MyContent/Roadmap.vue');
+const Donations = () => import('./MyContent/Donations.vue');
+const Supporters = () => import('./MyContent/Supporters.vue');
+const Participate = () => import('./MyContent/Participate.vue');
+const FAQ = () => import('./MyContent/FAQ.vue');
 
 export default {
   name: 'MyContent',
+  data() {
+    return {
+      show: false,
+    };
+  },
+  mounted() {
+    this.show = true;
+  },
   components: {
     Intro,
     Roadmap,

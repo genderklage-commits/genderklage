@@ -1,7 +1,7 @@
 <template>
   <div class="input-group mb-3">
-    <input ref="data_text" readonly="readonly"
-    type="text" class="form-control" aria-describedby="basic-addon2"
+    <input ref="data_text" readonly="readonly" :id="'input_' + title"
+    type="text" class="form-control"
     form-control-static :value="text" />
     <div class="input-group-append">
       <button :class="'btn btn-' + variant" type="button" @click="copy_data"

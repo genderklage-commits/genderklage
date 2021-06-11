@@ -17,10 +17,11 @@
             <p>Wir haben beim BMI die Handlungs&shy;anleitung für Personen&shy;stands&shy;fragen,
               insbesondere zu Geschlechts&shy;einträgen mittels
               <a href="https://blog.genderklage.at/2021/03/anfrage-zum-handlungsanleitung-fuer-personenstandsfragen/"
-              target="_blank">Antrag</a> nach dem Auskunftspflicht&shy;gesetz erfragt.
+              target="_blank" rel="noopener">
+              Antrag</a> nach dem Auskunftspflicht&shy;gesetz erfragt.
               Die Antwort mit der
               <a href="https://blog.genderklage.at/2021/04/handlungsanleitung-fuer-personenstandsfragen/"
-              target="_blank">Handlungsanleitung</a>
+              target="_blank" rel="noopener">Handlungsanleitung</a>
               kam am 12.04.
               </p>
           </div>
@@ -42,11 +43,12 @@
           <div class="col-md-6 col-10 text-right">
             <h3>31.03.2021 - Antrag auf Änderung im ZPR</h3>
             <p>Wir haben den des <a href="https://blog.genderklage.at/2021/03/antrag-eingebracht/"
-              target="_blank">Antrag</a> nach §&nbsp;41 Personenstands&shy;gesetz auf die
+              target="_blank" rel="noopener">
+              Antrag</a> nach §&nbsp;41 Personenstands&shy;gesetz auf die
               Streichung des Geschlechts&shy;eintrags
               im Zentralen Personenstands&shy;register (ZPR) eingebracht.
               und am 3.5. den <a href="https://blog.genderklage.at/2021/05/negativer-bescheid/"
-              target="_blank">negativen Bescheid</a> vom
+              target="_blank" rel="noopener">negativen Bescheid</a> vom
               Magistrat (Standesamt) erhalten.</p>
           </div>
           <div class="col-2 text-center full d-inline-flex
@@ -75,7 +77,7 @@
           <div class="col-md-6 col-10">
             <h3>27.05.2021 - Beschwerde beim Verwaltungsgericht</h3>
             <p>Wir haben die <a href="https://blog.genderklage.at/2021/05/beschwerde-beim-verwaltungsgericht/"
-              target="_blank">Beschwerde</a> gegen den Bescheid eingebracht.
+              target="_blank" rel="noopener">Beschwerde</a> gegen den Bescheid eingebracht.
               Die Genderklage ist somit amtlich!
               Die Stadt Wien muss innerhalb von
               2 Monaten dem Verwaltungsgericht Wien vorlegen,

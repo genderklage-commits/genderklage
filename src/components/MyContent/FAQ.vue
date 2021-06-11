@@ -34,8 +34,8 @@ export default {
           Frauen. Diese Personen bezeichnen sich zum Beispiel als nicht-binär oder genderqueer.\
           Auch auf körperlicher Ebene lassen sich Menschen nicht in zwei Geschlechterschubladen\
           einteilen (siehe inter).</p><br />\
-          <a target="_blank" href="https://genderdings.de/gender/geschlechtsidentitaet/">https://genderdings.de/gender/geschlechtsidentitaet/</a><br/>\
-          <a target="_blank" href="https://www.uni-bielefeld.de/gendertexte/gender.html">https://www.uni-bielefeld.de/gendertexte/gender.html</a>\
+          <a target="_blank" rel="noopener" href="https://genderdings.de/gender/geschlechtsidentitaet/">https://genderdings.de/gender/geschlechtsidentitaet/</a><br/>\
+          <a target="_blank" rel="noopener" href="https://www.uni-bielefeld.de/gendertexte/gender.html">https://www.uni-bielefeld.de/gendertexte/gender.html</a>\
           ',
         },
         {
@@ -55,8 +55,8 @@ export default {
           Geschlechtsmerkmale geboren.</p>\
           <p>„Intersexuell“ ist ein medizinisches Wort und wird deshalb von vielen Menschen abgelehnt.</p>\
           <br />\
-          <a target="_blank" href="https://vimoe.at/ueber-inter/">https://vimoe.at/ueber-inter/</a><br/>\
-          <a target="_blank" href="https://genderdings.de/koerper/intergeschlechtlichkeit/">https://genderdings.de/koerper/intergeschlechtlichkeit/</a>\
+          <a target="_blank" rel="noopener" href="https://vimoe.at/ueber-inter/">https://vimoe.at/ueber-inter/</a><br/>\
+          <a target="_blank" rel="noopener" href="https://genderdings.de/koerper/intergeschlechtlichkeit/">https://genderdings.de/koerper/intergeschlechtlichkeit/</a>\
           ',
         },
         {
@@ -73,8 +73,8 @@ export default {
           wie ihre Geschlechtsorgane aussehen und ob sie sich für oder gegen\
           geschlechtsangleichende medizinische Maßnahmen entscheiden.</p>\
           <br />\
-          <a target="_blank" href="https://www.transx.at/Pub/TransWas.php">https://www.transx.at/Pub/TransWas.php</a><br/>\
-          <a target="_blank" href="https://genderdings.de/gender/geschlechtsidentitaet/">https://genderdings.de/gender/geschlechtsidentitaet/</a>\
+          <a target="_blank" rel="noopener" href="https://www.transx.at/Pub/TransWas.php">https://www.transx.at/Pub/TransWas.php</a><br/>\
+          <a target="_blank" rel="noopener" href="https://genderdings.de/gender/geschlechtsidentitaet/">https://genderdings.de/gender/geschlechtsidentitaet/</a>\
           ',
         },
         {
@@ -92,7 +92,7 @@ export default {
           Die bisherige Diagnose als psychisch und verhaltensgestört habe maßgeblich zu Stigmatisierung und\
           gesellschaftlicher Marginalisierung von trans* Menschen beigetragen.<p>\
           <p>In Kraft treten soll das neue Verzeichnis dann am 1. Januar 2022.</p>\
-          <a target="_blank" href="https://www.aidshilfe.de/meldung/icd-11">https://www.aidshilfe.de/meldung/icd-11</a><br/>\
+          <a target="_blank" rel="noopener" href="https://www.aidshilfe.de/meldung/icd-11">https://www.aidshilfe.de/meldung/icd-11</a><br/>\
           ',
         },
         {
@@ -113,7 +113,7 @@ export default {
           nicht alle die eine brauchen, wollen jeden dieser Schritte gehen. Die Erkenntnis,\
           dass es unterschiedliche Bedürfnisse gibt, und dass auf die individuellen Wünsche einzugehen ist, um den Erfolg der\
           Behandlung nicht zu gefährden, setzt sich auch unter den behandelnden Ärztinnen und Therapeutinnen durch.</p>\
-          <a target="_blank" href="https://www.transx.at/Pub/Medizinisches.php">https://www.transx.at/Pub/Medizinisches.php</a><br/>\
+          <a target="_blank" rel="noopener" href="https://www.transx.at/Pub/Medizinisches.php">https://www.transx.at/Pub/Medizinisches.php</a><br/>\
           ',
         },
         {
@@ -133,16 +133,16 @@ export default {
           bzw. um das Gender-Spektrum und Gender-Kategorien grundsätzlich ablehnen. </p>\
           <p>Manchmal werden diese spezifischen Geschlechter genauer benannt, manchmal einfach nur der Überbegriff dafür verwendet.\
           Nicht alle Menschen, auf die diese Definitionen zutreffen, verstehen sich tatsächlich als nichtbinär/abinär oder genderqueer.</p>\
-          <a target="_blank" href="https://nibi.space/nichtbin%C3%A4r_und_genderqueer">https://nibi.space/nichtbinär_und_genderqueer</a><br/>\
-          <a target="_blank" href="https://www.transx.at/Pub/TransWas.php">https://www.transx.at/Pub/TransWas.php</a><br />\
-          <a target="_blank" href="https://www.queerundefined.com/search/egender/exgender">https://www.queerundefined.com/search/egender/exgender</a> (en)\
+          <a target="_blank" rel="noopener" href="https://nibi.space/nichtbin%C3%A4r_und_genderqueer">https://nibi.space/nichtbinär_und_genderqueer</a><br/>\
+          <a target="_blank" rel="noopener" href="https://www.transx.at/Pub/TransWas.php">https://www.transx.at/Pub/TransWas.php</a><br />\
+          <a target="_blank" rel="noopener" href="https://www.queerundefined.com/search/egender/exgender">https://www.queerundefined.com/search/egender/exgender</a> (en)\
           ',
         },
         {
           // eslint-disable-next-line no-multi-str
           sec: 0, title: 'Was bedeutet Queer?', text: '\
           <p>Queer ist ein Sammelbegriff für Personen, deren geschlechtliche Identität und/oder sexuelle Orientierung (wen\
-          sie begehren oder wie sie lieben) nicht der <a target="_blank" \
+          sie begehren oder wie sie lieben) nicht der <a target="_blank" rel="noopener" \
           href="https://diversity-arts-culture.berlin/woerterbuch/heteronormativitaet">heteronormativen</a> Norm entspricht.\
           Queer wird auch verwendet, um Bewegungen\
           und Dinge zu bezeichnen, die mit queeren Menschen in Verbindung stehen, wie zum Beispiel die queere Szene, Queer Studies\
@@ -153,8 +153,8 @@ export default {
           sexuelle Orientierung nicht der heteronormativen Norm entspricht. Im Zuge der Aids-Bewegung gelang es der queeren Community\
           jedoch, den Begriff wieder aufzuwerten (reclaiming), sodass für viele Menschen queer heute ein positiver Begriff ist und sie\
           sich gerne queer nennen. Als Sammelbegriff ist das Wort sehr offen und bietet vielen Menschen ein Identifikationsangebot.</p>\
-          <a target="_blank" href="https://diversity-arts-culture.berlin/woerterbuch/queer">https://diversity-arts-culture.berlin/woerterbuch/queer</a><br />\
-          <a target="_blank" href="https://de.wikipedia.org/wiki/Queer">https://de.wikipedia.org/wiki/Queer</a>\
+          <a target="_blank" rel="noopener" href="https://diversity-arts-culture.berlin/woerterbuch/queer">https://diversity-arts-culture.berlin/woerterbuch/queer</a><br />\
+          <a target="_blank" rel="noopener" href="https://de.wikipedia.org/wiki/Queer">https://de.wikipedia.org/wiki/Queer</a>\
           ',
         },
         {
@@ -170,8 +170,8 @@ export default {
           Nicht alle Menschen, auf die diese Definitionen zutreffen, nutzen diese Bezeichnungen. Ein Versuch der Visualsierung:</p>\
           <div class="text-center"><img width="60%" src="static/Gender_pyramid_labeled.png"\
           /></div> Weiterführende Informationen: \
-          <a target="_blank" href="https://nibi.space/liste_nichtbin%C3%A4rer_identit%C3%A4ten">Liste nicht-binärer Identitäten</a>.\
-          Bild: <a target="_blank" href="https://lgbta.wikia.org/wiki/User_blog:Chaoticcylinder/View_on_Gender,_Non-Outherine,_and_Coining_a_New_Term">lgbta.wikia.org</a>\
+          <a target="_blank" rel="noopener" href="https://nibi.space/liste_nichtbin%C3%A4rer_identit%C3%A4ten">Liste nicht-binärer Identitäten</a>.\
+          Bild: <a target="_blank" rel="noopener" href="https://lgbta.wikia.org/wiki/User_blog:Chaoticcylinder/View_on_Gender,_Non-Outherine,_and_Coining_a_New_Term">lgbta.wikia.org</a>\
           `,
         },
         {
@@ -184,11 +184,11 @@ export default {
           Muxe in Mexiko). Auch in der\
           europäischen Geschichte gibt es einige Hinweise jenseits der strengen Zweigeschlechtlichkeit.\
           In Platon’s Mythos der «Kugelmenschen»\
-          (<a target="_blank" href="https://de.wikipedia.org/wiki/Kugelmenschen">Wikipedia</a>)\
+          (<a target="_blank" rel="noopener" href="https://de.wikipedia.org/wiki/Kugelmenschen">Wikipedia</a>)\
           gibt es auch etwas wie ein non-binäres Geschlecht.</p>\
           <p>Es zeichnet sich ab, dass jüngere Generationen die strenge Zweiteilung von Geschlecht nicht\
           mehr so selbstverständlich übernehmen. </p>\
-          <a target="_blank" href="https://www.nonbinary.ch/non-binaer-gibt-es-das-wirklich/">https://www.nonbinary.ch/non-binaer-gibt-es-das-wirklich/</a>\
+          <a target="_blank" rel="noopener" href="https://www.nonbinary.ch/non-binaer-gibt-es-das-wirklich/">https://www.nonbinary.ch/non-binaer-gibt-es-das-wirklich/</a>\
 
           `,
         },
@@ -204,24 +204,24 @@ export default {
           ist dabei nicht mehr gebräuchlich, weil es als wenig inklusiv gilt und nur Männer und Frauen meint.\
           Gender Sternchen und Doppelpunkt werden als inklusiver empfunden (Mitarbeiter*innen, Student:innen).\
           Sternchen und Doppelpunkt spricht man als kurze Pause.\
-          <a target="_blank" href="https://www.derstandard.de/story/2000125170707/sternchen-gender-gap-oder-binnen-i-wie-gendert-mensch-richtig">\
+          <a target="_blank" rel="noopener" href="https://www.derstandard.de/story/2000125170707/sternchen-gender-gap-oder-binnen-i-wie-gendert-mensch-richtig">\
           https://www.derstandard.de/</a></p>\
           <p>Darüber hinaus gibt es Initiativen, die sich mit genderneutraler Sprache beschäftigen, also\
           neuen genderneutralen Wortendungen statt, gegendertert Sprache.
-          <a target="_blank" href="https://geschlechtsneutral.net/">https://geschlechtsneutral.net/</a></p>
+          <a target="_blank" rel="noopener" href="https://geschlechtsneutral.net/">https://geschlechtsneutral.net/</a></p>
           <p>Einige Menschen benutzen andere Pronomen als 'sie' und 'er'. Ähnlich wie man Menschen mit ihrem\
           Namen oder "hey du" ansprechen kann, ist auch das Benutzen der gewählten Pronomen der Person\
           ein Zeichen von Respekt und Höflichkeit. Wenn man sich nicht sicher ist, kann man danach Fragen\
           bzw. wenn man das nicht möchte, kann man seine Pronomen anbieten, indem an diese bei der Vorstellung\
           zusätzlich zu seinem Namen nennt. Auch cis Menschen können\
           ihre Pronomen anführen, um sich zu solidarisieren und das Thema zu normalisieren.
-          Liste mit Neo-Pronomen: <a target="_blank" href="https://nibi.space/pronomen">https://nibi.space/pronomen</a></p>\
+          Liste mit Neo-Pronomen: <a target="_blank" rel="noopener" href="https://nibi.space/pronomen">https://nibi.space/pronomen</a></p>\
           <p>Manche Menschen benutzen einen selbstgewählten Namen, der ihrer (Gender-)Identität besser entspricht\
           als jener, der ihnen bei ihrer Geburt gegeben wurde. Gerade für trans und nicht-binäre Menschen, die sich einen neuen Namen\
           gegeben haben, kann es extrem verletzend sein, sie mit ihrem Deadname anzusprechen. Das wird auch Deadnaming\
           oder deadnamen genannt und passiert manchmal unabsichtlich. Meist passiert es aber mit der Absicht, das\
           Geschlecht der trans oder nicht-binären Person nicht anzuerkennen, und sollte deshalb niemals getan werden.
-          <a target="_blank" href="https://queer-lexikon.net/2019/12/23/deadname/">\
+          <a target="_blank" rel="noopener" href="https://queer-lexikon.net/2019/12/23/deadname/">\
           https://queer-lexikon.net/2019/12/23/deadname/</a></p>         
           <p>Manche Menschen sind nicht in allen Kontexten geoutet (z.B. nicht am Arbeitsplatz aus Angst vor Jobverlust)\
           daher ist es oft auch sinnvoll zu fragen, wo der gewählte Name und die Pronomen sicher benutzt werden\
@@ -234,7 +234,7 @@ export default {
           // eslint-disable-next-line no-multi-str
           title: 'Wer vertritt die Kläger*in?', text: '\
           <p>Dr. Helmut Graupner</p>\
-          <a target="_blank" href="https://www.graupner.at/">https://www.graupner.at/</a>\
+          <a target="_blank" rel="noopener" href="https://www.graupner.at/">https://www.graupner.at/</a>\
           ',
         },
         {
@@ -307,8 +307,8 @@ export default {
           Besser wäre es, wenn man sich den Eintrag aussuchen könnte oder das Geschlecht gänzlich gestrichen wird.\
           In den Niederlanden wurde aus Schutz vor Diskriminierung bereits beschlossen, dass das Geschlecht nicht\
           mehr im Personalausweis stehen soll.</p>\
-          <a target="_blank" href="https://www.zeit.de/zett/queeres-leben/2021-04/geschlechtseintrag-divers-personalausweis-rafia-shahnaz-harzer/">https://www.zeit.de/zett/queeres-leben/2021-04/geschlechtseintrag-divers-personalausweis-rafia-shahnaz-harzer/</a><br />\
-          <a target="_blank" href="https://www.forbes.com/sites/jamiewareham/2020/07/07/dutch-id-cards-to-become-gender-free--could-more-of-europe-follow/">https://www.forbes.com/sites/jamiewareham/2020/07/07/dutch-id-cards-to-become-gender-free--could-more-of-europe-follow/</a>\
+          <a target="_blank" rel="noopener" href="https://www.zeit.de/zett/queeres-leben/2021-04/geschlechtseintrag-divers-personalausweis-rafia-shahnaz-harzer/">https://www.zeit.de/zett/queeres-leben/2021-04/geschlechtseintrag-divers-personalausweis-rafia-shahnaz-harzer/</a><br />\
+          <a target="_blank" rel="noopener" href="https://www.forbes.com/sites/jamiewareham/2020/07/07/dutch-id-cards-to-become-gender-free--could-more-of-europe-follow/">https://www.forbes.com/sites/jamiewareham/2020/07/07/dutch-id-cards-to-become-gender-free--could-more-of-europe-follow/</a>\
           ',
         },
         {

@@ -6,22 +6,22 @@
     <b-container class="social_media_container">
       <b-row align-h="center">
          <b-col cols="1"><a target="_blank" class="facebook"
-          href="https://www.facebook.com/genderklage">
+          href="https://www.facebook.com/genderklage" rel="noopener">
             <img src="../../../public/static/icons/Facebook.png"
             widht="32" height="32" title="Facebook" alt="Facbeook"/></a>
           </b-col>
           <b-col cols="1"><a target="_blank" class="twitter"
-          href="https://twitter.com/genderklage">
+          href="https://twitter.com/genderklage" rel="noopener">
             <img src="../../../public/static/icons/Twitter.png"
             widht="32" height="32" title="Twitter" alt="Twitter"/></a>
           </b-col>
           <b-col cols="1"><a target="_blank" class="instagram"
-          href="https://www.instagram.com/genderklage/">
+          href="https://www.instagram.com/genderklage/" rel="noopener">
             <img src="../../../public/static/icons/Instagram.png"
             widht="32" height="32" title="Instagram" alt="Instagram"/></a>
           </b-col>
           <b-col cols="1"><a target="_blank" class="tiktok"
-          href="https://www.tiktok.com/@genderklage">
+          href="https://www.tiktok.com/@genderklage" rel="noopener">
             <img src="../../../public/static/icons/TikTok.png"
             widht="32" height="32" title="TikTok" alt="TikTok"/></a>
           </b-col>
@@ -30,10 +30,10 @@
 
     <h3>Newsletter</h3>
     <p>Updates posten wir auf unserem
-    <a href="https://blog.genderklage.at/" target="_blank">Blog</a>, der per
-    <a href="https://blog.genderklage.at/newsletter" target="_blank">E-Mail</a>
+    <a href="https://blog.genderklage.at/" target="_blank" rel="noopener">Blog</a>, der per
+    <a href="https://blog.genderklage.at/newsletter" target="_blank" rel="noopener">E-Mail</a>
     oder
-    <a href="https://blog.genderklage.at/feed" target="_blank">RSS</a>
+    <a href="https://blog.genderklage.at/feed" target="_blank" rel="noopener">RSS</a>
     abonniert werden kann. Du kannst dich hier für den Newsletter eintragen:</p>
     <div class="newsletter">
       <b-form @submit="onSubmit" v-if="show">
@@ -69,7 +69,7 @@
     <p>Wer sich gerne zu diesem Thema vernetzen möchte, kann der Telegram Gruppe
       beitreten. Die Gruppe ist öffentlich, um
       einen niederschwelligen Zugang zu ermöglichen. Bitte seid respektvoll!
-    </p><a href="https://t.me/genderklage" target="_blank" class="callout_a">
+    </p><a href="https://t.me/genderklage" target="_blank" rel="noopener" class="callout_a">
     <div class="callout">
       <div class="callout_content">
         <img src="../../../public/static/telegram.png"

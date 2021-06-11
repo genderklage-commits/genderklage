@@ -3,14 +3,16 @@
     <h2 id="Intro" data-track-content data-content-name="Content" data-content-piece="Intro">
     Worum es uns geht</h2>
     <p>
-    Wir von <a target="_blank" href="https://venib.at/" title="Venib - Verein Nicht Binär">Venib</a>
+    Wir von <a target="_blank" rel="noopener" href="https://venib.at/"
+    title="Venib - Verein Nicht Binär">Venib</a>
     wollen das Ende der
     Diskriminierung von Personen aufgrund ihrer Geschlechtsidentität, ihrer Geschlechtsmerkmale
     und ihres Geschlechtsausdrucks. Die Wahl des Personenstandes ist in Österreich noch immer nicht
     frei und selbstbestimmt – Änderungen haben noch immer bürokratische Hürden, bauen auf
     Pathologisierung der Betroffenen auf und orientieren sich nicht daran, wie Personen leben.
     Dazu haben wir uns bereits mit mehr als 50 weiteren Organisationen in einem
-    <a target="_blank" href="https://www.transx.at/Dokumente/Offener%20Brief%202021.05.pdf">offenen Brief</a>
+    <a target="_blank" rel="noopener"
+    href="https://www.transx.at/Dokumente/Offener%20Brief%202021.05.pdf">offenen Brief</a>
     an die Bundesregierung gewandt und untestützen die Genderklage.
     Die Genderklage ist eine Innitiative der Kläger*in.
     </p>
@@ -46,7 +48,7 @@
     EMRK an die Verhältnismäßigkeit nicht gerecht werden. Es ist kein Grund von
     entsprechendem Gewicht zu erkennen, der eine solche Beschränkung des durch Art8
     EMRK gewährleisteten Rechts auf individuelle Geschlechtsidentität rechtfertigt.
-    <cite><a target="_blank"
+    <cite><a target="_blank" rel="noopener"
     href="https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20180615_18G00077_01/JFR_20180615_18G00077_01.pdf">
     VfGH G77/2018</a></cite>
     </p></blockquote>

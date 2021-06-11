@@ -26,17 +26,17 @@
           <b-row class="align-items-center">
             <b-col md="9">
               <b-row>
-                <b-col md="4">Zahlungsempfänger</b-col>
+                <b-col md="4"><label for="input_name">Zahlungsempfänger</label></b-col>
                 <b-col><MyCopyField title="name" :text="name" variant="purple"
                 alt="Zahlungsempfänger in die Zwischenablage kopieren" /></b-col>
               </b-row>
               <b-row>
-                <b-col md="4">IBAN</b-col>
+                <b-col md="4"><label for="input_iban">IBAN</label></b-col>
                 <b-col><MyCopyField title="iban" :text="iban" variant="purple"
                 alt="IBAN in die Zwischenablage kopieren" /></b-col>
               </b-row>
               <b-row>
-                <b-col md="4">Verwendungszweck</b-col>
+                <b-col md="4"><label for="input_reason">Verwendungszweck</label></b-col>
                 <b-col><MyCopyField title="reason" :text="reason" variant="purple"
                 alt="Verwendungszweck in die Zwischenablage kopieren" /></b-col>
               </b-row>
@@ -70,12 +70,12 @@
     <p>Organisationen und Personen, die gerne namentlich erwähnt werden möchten, schreiben bitte
       den Namen, mit dem sie aufscheinen wollen in den Verwendungszweck
       (z.B. "{{reason}} - Name"), ansonsten scheint die Spende als "Anonym" auf:
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
       href="https://blog.genderklage.at/spenden/">
       Liste der Spenden</a>.
     </p>
     <p>Einnahmen und Ausgaben sind transparent einsehbar:
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
       href="https://blog.genderklage.at/kostenuebersicht/">
       Kostenübersicht</a>.
     </p>
