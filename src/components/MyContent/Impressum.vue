@@ -2,7 +2,9 @@
   <div class="impressum">
     <h3 data-track-content data-content-name="Impressum" data-content-piece="Impressum">
       Medieninhaber*in, Herausgeber*in, Hersteller*in und Redaktion:</h3>
-    <p><a target="_blank" rel="noopener" href="https://venib.at/">
+    <br /><p>Die Kläger*in der Genderklage</p><br />
+
+    <p>Zustellbevollmächtigt:<br /><a target="_blank" rel="noopener" href="https://venib.at/">
        Venib - Verein Nicht Binär</a><br />
        Waldgasse 16/8<br />
        1100 Wien<br />
@@ -13,6 +15,8 @@
     <p>
     <a href="mailto:info@genderklage.at">Kampagnenteam &lt;info@genderklage.at&gt;</a>
     </p>
+    <p>Statements und Aussendungen des Kampagnenteams stellen nicht
+      notwendigerweise eine Vereinsmeinung dar.</p>
 
     <h3 data-track-content data-content-name="Impressum" data-content-piece="DSGVO">
     Verarbeitung Personenbezogner Daten (DSGVO)</h3>
