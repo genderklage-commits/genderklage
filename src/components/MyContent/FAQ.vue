@@ -207,8 +207,12 @@ export default {
           <a target="_blank" rel="noopener" href="https://www.derstandard.de/story/2000125170707/sternchen-gender-gap-oder-binnen-i-wie-gendert-mensch-richtig">\
           https://www.derstandard.de/</a></p>\
           <p>Darüber hinaus gibt es Initiativen, die sich mit genderneutraler Sprache beschäftigen, also\
-          neuen genderneutralen Wortendungen statt, gegendertert Sprache.
-          <a target="_blank" rel="noopener" href="https://geschlechtsneutral.net/">https://geschlechtsneutral.net/</a></p>
+          neuen genderneutralen Wortendungen statt, gegendertert Sprache:
+          </p>
+          <ul>
+          <li><a target="_blank" rel="noopener" href="https://geschlechtsneutral.net/">https://geschlechtsneutral.net/</a><br /></li>
+          <li><a target="_blank" rel="noopener" href="https://geschlechtsneutralesdeutsch.com/">https://geschlechtsneutralesdeutsch.com/</a></li>
+          </ul>
           <p>Einige Menschen benutzen andere Pronomen als 'sie' und 'er'. Ähnlich wie man Menschen mit ihrem\
           Namen oder "hey du" ansprechen kann, ist auch das Benutzen der gewählten Pronomen der Person\
           ein Zeichen von Respekt und Höflichkeit. Wenn man sich nicht sicher ist, kann man danach Fragen\
@@ -409,6 +413,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<style>
+.main_content .accordion li {
+  display: block;
+}
+</style>
 <style scoped>
 
 h3, .h3 {
