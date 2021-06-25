@@ -168,6 +168,12 @@ export default {
           type: 'soho',
           url: 'https://www.soho.or.at/',
         },
+        {
+          img: 'static/logos/gras.png',
+          name: 'GRAS – Grüne & Alternative Student_innen',
+          type: 'gras',
+          url: 'https://www.gras.at/',
+        },
       ],
       partners: [
         {

@@ -221,6 +221,12 @@ background: linear-gradient(180deg, #FE0000 0%,
     rgba(95,65,115,1) 70%);
 }
 
+.item .gras:after {
+    background: linear-gradient(180deg,
+    rgba(91,197,0,1) 40%,
+    rgba(252,227,0,1) 100%)
+}
+
 /* http://barchok.com/flags.html */
 .item .lgbt:after  {
 background: linear-gradient(180deg, #FE0000 16.66%,
