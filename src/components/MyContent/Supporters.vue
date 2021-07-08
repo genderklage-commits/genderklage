@@ -174,6 +174,12 @@ export default {
           type: 'gras',
           url: 'https://www.gras.at/',
         },
+        {
+          img: 'static/logos/neos.png',
+          name: 'Parlamentsklub der NEOS - Yannick Shetty',
+          type: 'neos',
+          url: 'https://www.yannickshetty.at/',
+        },
       ],
       partners: [
         {
