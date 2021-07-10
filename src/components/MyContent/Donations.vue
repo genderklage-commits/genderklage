@@ -11,11 +11,11 @@
       Regelungen können sich, sobald sie umgesetzt sind, jedenfalls alle berufen.
     </p>
     <div class="donateprogressbar progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 5%" >
-      1.145 von 20.000 Euro
+      <div class="progress-bar progress-bar-striped progress-bar-animated" :style="don_style" >
+      {{don_header}}
       </div>
     </div><div class="float-right" style="margin-top: -2rem;">
-      <small>(Stand: 10.06.2021)</small></div>
+      <small>{{don_state}}</small></div>
     <p>Wir freuen uns über jede Spende! Falls du auf einen Wink vom Schicksal gewartet hast,
     hier ist er ;)
     </p>
@@ -81,6 +81,12 @@
     </p>
     <p>Spenden ohne Verwendungszweck werden für die allgemeine
       Vereinstätigkeit bei Venib benutzt.</p>
+
+    <div class="donors">
+    <h3>Spender*innen</h3>
+    <p>{{don_donors}}</p>
+    <small>Reihenfolge nach Spendenzeitpunkt</small>
+    </div>
   </div>
 </template>
 
@@ -97,6 +103,10 @@ export default {
       name: 'Venib',
       iban: 'AT022011184424937200',
       reason: 'Spende für Genderklage',
+      don_header: 'lade daten...',
+      don_state: 'lade daten...',
+      don_style: { width: '0%' },
+      don_donors: 'lade daten...',
     };
   },
   components: {
@@ -128,16 +138,54 @@ export default {
       level: 'H',
       value: qrCodeString,
     });
+
+    this.fetchDonationState();
+    this.fetchDonors();
+  },
+  methods: {
+    async fetchDonationState() {
+      try {
+        this.isLoading = true;
+        const res = await this.$http({
+          method: 'get',
+          url: 'https://blog.genderklage.at/wp-json/api/v1/donations',
+          dataType: 'json',
+        });
+
+        const data = JSON.parse(JSON.stringify(res.data));
+        this.don_header = `${data.Spenden} von ${data.Ziel} Euro`;
+        this.don_state = `Bisherige Ausgaben: ${data.Ausgaben} EUR, Saldo: ${data.Saldo} EUR, Stand: ${data.Stand}`;
+        this.don_style.width = data.Fortschritt;
+      } catch (err) {
+        console.log(err);
+      } finally {
+        this.isLoading = false;
+      }
+    },
+    async fetchDonors() {
+      try {
+        this.isLoading = true;
+        const res = await this.$http({
+          method: 'get',
+          url: 'https://blog.genderklage.at/wp-json/api/v1/donors',
+          dataType: 'json',
+        });
+
+        const data = JSON.parse(JSON.stringify(res.data));
+        this.don_donors = `${data.join(', ')} & zahlreiche anonyme Personen`;
+      // eslint-disable-next-line no-empty
+      } catch (err) {
+        console.log(err);
+      } finally {
+        this.isLoading = false;
+      }
+    },
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-h3 {
-  text-align: left;
-}
 
 .donateprogressbar {
   height: 3rem;
@@ -174,6 +222,15 @@ h3 {
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.donors {
+  margin-top: 2rem;
+}
+
+.donors p {
+  text-align: center;
+  font-style: italic;
 }
 
 </style>
