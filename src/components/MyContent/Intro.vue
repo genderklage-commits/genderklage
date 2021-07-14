@@ -26,7 +26,8 @@
     von einem binären Geschlecht
     zum anderen zu wechseln,
     wenn die entsprechenden formalen Voraussetzungen des Gesetzgebers erfüllt sind.</p>
-    <p>Für Menschen, die weder Mann noch Frau sind oder eine Einordnung
+    <p>Für Menschen, auf die die Bezeichnung Frau oder Mann nicht oder nicht ausreichend
+    zutrifft oder die eine Einordnung
     grundsätzlich ablehnen, aber nicht inter sind, besteht zurzeit
     keine Möglichkeit das in offiziellen Dokumenten widerzuspiegeln.
     Das Personenstandsregister soll den Personenstand dokumentieren, nicht
