@@ -184,6 +184,10 @@ export default {
   background: #e94289;
 }
 
+.item .trilety:after {
+  background: #f1f3f9;
+}
+
 .item .psychotherapie_salzburg:after {
     background: linear-gradient(180deg, #186469 25%,
   #3b8e9d 25%, 50%, #74a4b2 50%, 75%, #bec6ca 75%);

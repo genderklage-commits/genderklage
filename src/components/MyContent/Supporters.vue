@@ -182,6 +182,12 @@ export default {
           url: 'https://www.yannickshetty.at/',
         },
         */
+        {
+          img: 'static/logos/trilety.png',
+          name: 'Psychotherapie Wien - Mag.* Miriam Trilety',
+          type: 'trilety',
+          url: 'https://www.triletytherapie.com/',
+        },
       ],
       partners: [
         {
