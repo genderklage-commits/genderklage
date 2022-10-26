@@ -6,7 +6,7 @@
 
     <p>Zustellbevollmächtigt:<br /><a target="_blank" rel="noopener" href="https://venib.at/">
        Venib - Verein Nicht Binär</a><br />
-       Waldgasse 16/8<br />
+       Waldgasse<br />
        1100 Wien<br />
        <br />
        ZVR-Zahl: 1858076589<br /><br />
