@@ -1,40 +1,77 @@
 <template>
   <div>
-    <h2 id="Participate"
-    data-track-content data-content-name="Content" data-content-piece="Participate">
-      Mitmachen &amp; auf dem Laufenden bleiben</h2>
+    <h2
+      id="Participate"
+      data-track-content
+      data-content-name="Content"
+      data-content-piece="Participate"
+    >
+      Mitmachen &amp; auf dem Laufenden bleiben
+    </h2>
     <b-container class="social_media_container">
       <b-row align-h="center">
-         <b-col cols="1"><a target="_blank" class="facebook"
+        <!--<b-col cols="1"><a target="_blank" class="facebook"
           href="https://www.facebook.com/genderklage" rel="noopener">
             <img src="../../../public/static/icons/Facebook.png"
             widht="32" height="32" title="Facebook" alt="Facbeook"/></a>
-          </b-col>
-          <b-col cols="1"><a target="_blank" class="twitter"
-          href="https://twitter.com/genderklage" rel="noopener">
-            <img src="../../../public/static/icons/Twitter.png"
-            widht="32" height="32" title="Twitter" alt="Twitter"/></a>
-          </b-col>
-          <b-col cols="1"><a target="_blank" class="instagram"
-          href="https://www.instagram.com/genderklage/" rel="noopener">
-            <img src="../../../public/static/icons/Instagram.png"
-            widht="32" height="32" title="Instagram" alt="Instagram"/></a>
-          </b-col>
-          <b-col cols="1"><a target="_blank" class="tiktok"
+          </b-col>-->
+        <b-col cols="1"
+          ><a target="_blank" class="twitter" href="https://twitter.com/genderklage" rel="noopener">
+            <img
+              src="../../../public/static/icons/Twitter.png"
+              widht="32"
+              height="32"
+              title="Twitter"
+              alt="Twitter"
+          /></a>
+        </b-col>
+        <b-col cols="1"
+          ><a
+            target="_blank"
+            class="instagram"
+            href="https://www.instagram.com/genderklage/"
+            rel="noopener"
+          >
+            <img
+              src="../../../public/static/icons/Instagram.png"
+              widht="32"
+              height="32"
+              title="Instagram"
+              alt="Instagram"
+          /></a>
+        </b-col>
+        <b-col cols="1"
+          ><a
+            target="_blank"
+            class="instagram"
+            href="https://www.instagram.com/venib_at/"
+            rel="noopener"
+          >
+            <img
+              src="../../../public/static/icons/Instagram.png"
+              widht="32"
+              height="32"
+              title="Instagram"
+              alt="Instagram"
+          /></a>
+        </b-col>
+        <!--<b-col cols="1"><a target="_blank" class="tiktok"
           href="https://www.tiktok.com/@genderklage" rel="noopener">
             <img src="../../../public/static/icons/TikTok.png"
             widht="32" height="32" title="TikTok" alt="TikTok"/></a>
-          </b-col>
+          </b-col>-->
       </b-row>
     </b-container>
 
     <h3>Newsletter</h3>
-    <p>Updates posten wir auf unserem
-    <a href="https://blog.genderklage.at/" target="_blank" rel="noopener">Blog</a>, der per
-    <a href="https://blog.genderklage.at/newsletter" target="_blank" rel="noopener">E-Mail</a>
-    oder
-    <a href="https://blog.genderklage.at/feed" target="_blank" rel="noopener">RSS</a>
-    abonniert werden kann. Du kannst dich hier für den Newsletter eintragen:</p>
+    <p>
+      Updates posten wir auf unserem
+      <a href="https://blog.genderklage.at/" target="_blank" rel="noopener">Blog</a>, der per
+      <a href="https://blog.genderklage.at/newsletter" target="_blank" rel="noopener">E-Mail</a>
+      oder
+      <a href="https://blog.genderklage.at/feed" target="_blank" rel="noopener">RSS</a>
+      abonniert werden kann. Du kannst dich hier für den Newsletter eintragen:
+    </p>
     <div class="newsletter">
       <b-form @submit="onSubmit" v-if="show">
         <div class="input-group">
@@ -46,47 +83,54 @@
             required
           ></b-form-input>
           <div class="input-group-append">
-            <b-button type="submit" variant="purple"
-            title="zum Newsletter anmelden" alt="zum Newsletter anmelden">
-            anmelden</b-button>
+            <b-button
+              type="submit"
+              variant="purple"
+              title="zum Newsletter anmelden"
+              alt="zum Newsletter anmelden"
+            >
+              anmelden</b-button
+            >
           </div>
         </div>
       </b-form>
       <div class="newsletterstatus">
-      <p class="message" v-html="message"></p>
-      <p class="errormsg" v-html="errormsg"></p>
-      <div class="dotscontainer" v-if="isLoading">
-      <div id="dots3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div></div>
+        <p class="message" v-html="message"></p>
+        <p class="errormsg" v-html="errormsg"></p>
+        <div class="dotscontainer" v-if="isLoading">
+          <div id="dots3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
     </div>
 
     <h3>Telegram</h3>
-    <p>Wer sich gerne zu diesem Thema vernetzen möchte, kann der Telegram Gruppe
-      beitreten. Die Gruppe ist öffentlich, um
-      einen niederschwelligen Zugang zu ermöglichen. Bitte seid respektvoll!
-    </p><a href="https://t.me/genderklage" target="_blank" rel="noopener" class="callout_a">
-    <div class="callout">
-      <div class="callout_content">
-        <img src="../../../public/static/telegram.png"
-        alt="Telegram Logo" />
-        <span>https://t.me/genderklage</span>
-      </div>
-    </div></a>
     <p>
-    Bei Interesse einen gleich oder ähnlich lautenden Antrag zu stellen,
-    würden wir uns über eine Zusammenarbeit jedenfalls freuen. Gerne per
-    Telegram melden oder an die E-Mail-Adresse im Impressum schreiben!
+      Wer sich gerne zu diesem Thema vernetzen möchte, kann der Telegram Gruppe beitreten. Die
+      Gruppe ist öffentlich, um einen niederschwelligen Zugang zu ermöglichen. Bitte seid
+      respektvoll!
+    </p>
+    <a href="https://t.me/genderklage" target="_blank" rel="noopener" class="callout_a">
+      <div class="callout">
+        <div class="callout_content">
+          <img src="../../../public/static/telegram.png" alt="Telegram Logo" />
+          <span>https://t.me/genderklage</span>
+        </div>
+      </div></a
+    >
+    <p>
+      Bei Interesse einen gleich oder ähnlich lautenden Antrag zu stellen, würden wir uns über eine
+      Zusammenarbeit jedenfalls freuen. Gerne per Telegram melden oder an die E-Mail-Adresse im
+      Impressum schreiben!
     </p>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'Participate',
   data() {
@@ -149,8 +193,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-h3, .h3 {
+h3,
+.h3 {
   text-align: left;
   margin-top: 2rem;
 }
@@ -168,7 +212,7 @@ h3, .h3 {
   color: #0d6efd;
 }
 
-.callout_a:hover{
+.callout_a:hover {
   color: white;
 }
 
@@ -181,35 +225,34 @@ h3, .h3 {
   margin-right: 1rem;
 }
 
-.callout_content
-{
+.callout_content {
   margin: 0.5rem;
   word-break: break-word;
 }
 
 .social_media_container {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .social_media_container .col-1 {
   min-width: 62px;
 }
 
-.social_media_container a  {
+.social_media_container a {
   padding: 14px 12px 19px 12px;
   background-color: #eee;
 }
 
-.social_media_container a.facebook:hover  {
+.social_media_container a.facebook:hover {
   background-color: #3b5998;
 }
-.social_media_container a.twitter:hover  {
-  background-color: #1DA1F2;
+.social_media_container a.twitter:hover {
+  background-color: #1da1f2;
 }
-.social_media_container a.instagram:hover  {
-  background-color: #E1306C;
+.social_media_container a.instagram:hover {
+  background-color: #e1306c;
 }
-.social_media_container a.tiktok:hover  {
+.social_media_container a.tiktok:hover {
   background-color: #000;
 }
 
@@ -260,73 +303,72 @@ h3, .h3 {
   background: rgba(0, 0, 0, 0.25);
   border-radius: 50%;
   -webkit-animation: dots3 1.5s infinite ease-out;
-          animation: dots3 1.5s infinite ease-out;
+  animation: dots3 1.5s infinite ease-out;
 }
 
 #dots3 span:nth-child(1) {
   left: 0px;
   -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 #dots3 span:nth-child(2) {
   left: 15px;
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 #dots3 span:nth-child(3) {
   left: 30px;
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 #dots3 span:nth-child(4) {
   left: 45px;
   -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 @keyframes dots3 {
   0% {
     background: #000000;
     -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    transform: scale(0.1);
     -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    transform: scale(0.1);
   }
   50% {
     background: rgba(0, 0, 0, 0.25);
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     background: #000000;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @-webkit-keyframes dots3 {
   0% {
     background: #000000;
     -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    transform: scale(0.1);
   }
   50% {
     background: rgba(0, 0, 0, 0.25);
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     background: #000000;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 /** END of dots3 */
-
 </style>
