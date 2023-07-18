@@ -84,12 +84,14 @@ export default {
           type: 'bvg',
           url: 'https://gendergerechtigkeit.at/',
         },
+        /*
         {
           img: 'static/logos/twospiritone.png',
           name: 'TWOspiritinONE',
           type: 'twospiritone',
           url: 'https://2spiritin1.at/',
         },
+        */
         {
           img: 'static/logos/hosi_tirol.png',
           name: 'HOSI Tirol',
