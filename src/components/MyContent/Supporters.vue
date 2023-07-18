@@ -78,13 +78,13 @@ export default {
           type: 'psychotherapie_salzburg',
           url: 'https://www.psychotherapie-salzburg.de/',
         },
+        /*
         {
           img: 'static/logos/bvg.png',
           name: 'BVG - Bundesvereinigung für Gendergerechtigkeit',
           type: 'bvg',
           url: 'https://gendergerechtigkeit.at/',
         },
-        /*
         {
           img: 'static/logos/twospiritone.png',
           name: 'TWOspiritinONE',
