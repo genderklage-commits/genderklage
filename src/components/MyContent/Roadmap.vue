@@ -4,6 +4,7 @@
     Roadmap</h2>
     <p>Es geht nicht direkt zum VfGH, davor erfolgen noch einige Schritte,
       sowie Vorbereitungsarbeiten, die in die Wege geleitet wurden:</p>
+    <p class="text-center"><u>Update:</u> Aktuelle <a href="https://venib.at/ag-recht/" target="_blank">Übersicht</a> über alle laufenden Verfahren bei Venib</p>
     <div class="roadmap">
       <div class="container">
         <!--first section-->
