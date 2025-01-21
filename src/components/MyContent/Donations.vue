@@ -14,6 +14,8 @@
       <div class="progress-bar progress-bar-striped progress-bar-animated" :style="don_style" >
       {{don_header}}
       </div>
+      <div class="spent-bar progress-bar-striped progress-bar-animated" :style="spent_style">
+      </div>
     </div><div class="float-right" style="margin-top: -2rem;">
       <small>{{don_state}}</small></div>
     <p>Wir freuen uns über jede Spende! Falls du auf einen Wink vom Schicksal gewartet hast,
@@ -106,6 +108,7 @@ export default {
       don_header: 'lade daten...',
       don_state: 'lade daten...',
       don_style: { width: '0%' },
+      spent_style: { width: '0%' },
       don_donors: 'lade daten...',
     };
   },
@@ -153,9 +156,10 @@ export default {
         });
 
         const data = JSON.parse(JSON.stringify(res.data));
-        this.don_header = `${data.Spenden} von ${data.Ziel} Euro`;
-        this.don_state = `Bisherige Ausgaben: ${data.Ausgaben} EUR, Saldo: ${data.Saldo} EUR, Stand: ${data.Stand}`;
+        this.don_header = `Spenden: ${data.Spenden} von ${data.Ausgaben} EUR`;
+        this.don_state = `Bisherige Ausgaben: ${data.Ausgaben} EUR, Saldo: ${data.Saldo} EUR, Stand: ${data.Covered}. Finanzierungsziel: ${data.Ziel}, Stand: ${data.Fortschritt}`;
         this.don_style.width = data.Fortschritt;
+        this.spent_style.width = data.Gap;
       } catch (err) {
         console.log(err);
       } finally {
@@ -192,14 +196,22 @@ export default {
   font-size: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
-.donateprogressbar .progress-bar {
+.donateprogressbar .progress-bar{
   background-color: #63a62e;
   overflow: visible;
   padding-left: 1rem;
   font-weight: bold;
   color: #181818;
+  z-index: 2;
+}
+
+.spent-bar {
+  background-color: #9C59D1;
+  z-index: 1;
+  transition: 3s ease;
 }
 
 @media (min-width: 9000px) {

@@ -40,7 +40,7 @@ export default {
         },
         {
           // eslint-disable-next-line no-multi-str
-          title: 'Was bedeutet inter?', text: '\
+          title: 'Was bedeutet inter*?', text: '\
           <p>Menschen werden bei oder schon vor der Geburt anhand ihrer Genitalien einem Geschlecht zugeordnet\
           – meistens männlich oder weiblich. Eigentlich sind für körperliche Geschlechtsmerkmale aber nicht nur\
           die Genitalien relevant, sondern noch mindestens drei weitere Ebenen:</p>\

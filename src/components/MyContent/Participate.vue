@@ -15,7 +15,7 @@
             <img src="../../../public/static/icons/Facebook.png"
             widht="32" height="32" title="Facebook" alt="Facbeook"/></a>
           </b-col>-->
-        <b-col cols="1"
+        <!--<b-col cols="1"
           ><a target="_blank" class="twitter" href="https://twitter.com/genderklage" rel="noopener">
             <img
               src="../../../public/static/icons/Twitter.png"
@@ -24,7 +24,7 @@
               title="Twitter"
               alt="Twitter"
           /></a>
-        </b-col>
+        </b-col>-->
         <b-col cols="1"
           ><a
             target="_blank"
